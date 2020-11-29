@@ -15,7 +15,7 @@ spec:
         type: route
         overrides:
           bootstrap:
-            host: bootstrap-manuela-data-lake-central-kafka-cluster.apps.edge-mgmt-hub.gcp.devcluster.openshift.com
+            host: bootstrap-manuela-data-lake-central-kafka-cluster.apps.mgmt_cluster.mgmt_cluster.locutus.me
         configuration:
           brokerCertChainAndKey:
             certificate: tls.crt

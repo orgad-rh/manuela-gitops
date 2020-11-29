@@ -3,7 +3,7 @@ kind: Route
 metadata:
   name: prometheus
 spec:
-  host: prometheus-manuela-argocd-aggregator.apps.edge-mgmt-hub.gcp.devcluster.openshift.com
+  host: prometheus-manuela-argocd-aggregator.apps.mgmt_cluster.mgmt_cluster.locutus.me
   port:
     targetPort: web
   to:

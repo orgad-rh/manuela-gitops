@@ -28,14 +28,14 @@ spec:
   - name: 0.3.2-49
     from:
       kind: DockerImage
-      name: quay.io/redhat-edge-computing/iot-consumer:0.3.2-49
+      name: quay.io/okimchi/iot-consumer:0.3.2-49
     importPolicy: {}
     referencePolicy:
       type: Local
   - name: 0.3.2-50
     from:
       kind: DockerImage
-      name: quay.io/redhat-edge-computing/iot-consumer:0.3.2-50
+      name: quay.io/okimchi/iot-consumer:0.3.2-50
     importPolicy: {}
     referencePolicy:
       type: Local
